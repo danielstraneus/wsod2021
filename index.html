@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WSOD 2021</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/cf97e35921.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="winning">
+    <div id="container" class=>
+      <marquee direction="left"
+        ><i id="logo-die1" class="fas fa-dice"></i>WORLD SERIES OF DICE 2021<i
+          id="logo-die1"
+          class="fas fa-dice"
+        ></i
+      ></marquee>
+      <div class="dices">
+        <i id="dice-one" class="fas fa-dice-one"></i>
+        <i id="dice-two" class="fas fa-dice-six"></i>
+      </div>
+      <button class="" id="knappen" onclick="roll()">ROLL THE DICE</button>
+      <button class="" id="knappen2" onclick="roll2()">RESTART</button>
+    </div>
+    <h3 id="message"></h3>
+    <table class="winning">
+      <tr>
+        <th class="winning">rules</th>
+      </tr>
+      <tr>
+        <td class="winning">
+          1. if first roll is a seven or eleven, u win. <br />2. if first roll
+          is two, three or 12 u lose. <br />
+          3. otherwhise whatever was rolled becomes the point.<br />
+          4. roll the point again without rolling a seven to win.
+        </td>
+      </tr>
+    </table>
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
